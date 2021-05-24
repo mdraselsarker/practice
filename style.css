@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.clearFixed::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+
+.mainDivBox{
+    height: 1732px;
+    width: 1200px;
+    background-color: #ddd;
+    margin: auto;
+    margin-top: 40px;
+    box-shadow: 0 10px 30px 0 black;
+    border-radius: 20px;
+}
+.headerLogo{
+    width: 30%;
+    height: 50px;
+    background-color: tomato;
+    border-top-left-radius: 20px;
+    float: left;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.logo{
+    height: 50px;
+    width: 100%;
+    border-top-left-radius: 20px;
+
+
+}
+
+.menu{
+    width: 70%;
+    height: 50px;
+    background-color: tomato;
+    float: right;
+    border-top-right-radius: 20px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    
+   
+}
+
+.menu ul{
+    float: right;
+     
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+    border-left: 1px solid white;
+}
+.menu ul li a{
+    padding: 13px 16px;
+    display: inline-block;
+    font-size: 16px;
+    text-decoration: none;
+    color: ghostwhite;
+    font-family: arial black;
+}
+
+.menu ul li a:hover{
+    background: black;
+    color: white;
+}
+
+/* This is a banner section*/
+
+.banner{
+    background: linear-gradient(#ffffff47,#000000a8),url(./Image/banner1.jpg);
+    width: 100%;
+    height: 571px;
+    overflow: hidden;
+}
+
+.banner h1{   
+    width: 799px;
+    margin: auto;
+    color: tomato;
+    margin-top: 230px;
+    font-family: arial black;
+    text-shadow: 13px 10px 5px black;
+    font-size: 50px;
+    
+}
+
+.discription{
+    width: 500px;
+    color: white;
+    text-align: center;
+    margin-left: 331px;
+    margin-top: 40px;
+}
+
+/* this is a left middle section*/
+
+
+.middleLeft{
+    height: 500px;
+    width: 70%;
+    float: left;
+    border-right: 1px solid black;
+    
+}
+
+
+.middleLeft img{
+    height: 256px;
+    width: 272px;
+    margin-top: 27px;
+    margin-left: 80px;
+    border: 2px solid tomato;
+    border-radius: 15px;
+    box-shadow: 2px 6px 8px black;
+}
+
+.middleright{
+    height: 500px;
+    width: 29%;
+    float: right;
+}
+
+.headingimg p{
+    margin-top: 20px;
+    padding: 10px;
+    font-family: sans-serif;
+}
+
+
+
+.aboutMe h2{
+    font-size: 50px;
+    float: right;
+    margin-top: -280px;
+    margin-right: 161px;
+    color: coral;
+}
+
+.aboutMe ul{
+    float: right;
+    margin-top: -170px;
+    margin-right: 267px;
+    list-style: circle;
+}
+
+.aboutMe ul li{
+    padding: 10px;
+    font-family: fantasy;
+    color: coral;
+}
+
+.anotherDis{
+    padding: 10px;
+    margin-top: 10px;
+    font-family:sans-serif;
+}
+
+
+/* this is a right middle section*/
+
+
+
+
+.notice marquee{
+    margin-top: 30px;
+    text-align: center;
+    color: tomato;
+    font-size: 30px;
+}
+
+.noticeList ul{
+    margin-left: 10px;
+    margin-top: 40px;
+}
+
+
+.noticeList ul li {
+     padding: 10px;
+     font-family: fantasy;
+     color: cadetblue;
+     list-style: inside;
+}
+
+
+
+/* This is a Servive Section*/
+
+
+
+.service h1{
+    font-family: arial black;
+    display: inline-block;
+    color: cadetblue;
+    margin-left: 40%;
+    margin-top: 54px;
+    font-size: 40px;
+}
+
+.serviceList div{
+    width: 250px;
+    height: 276px;
+    border: 1px solid red;
+    margin-left: 123px;
+    margin-top: 50px;
+    float: left;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px 0 black;
+    transition: 1s;
+    
+    
+}
+
+
+.serviceList h2{
+    text-align: center;
+    font-size: 34px;
+    margin-top: 50px;
+    font-family: arial black;
+    color: yellowgreen;
+
+}
+
+.service1 p{
+    
+    width: 230px;
+    height: 150px;
+    text-align: center;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+
+.service2 p {
+    width: 230px;
+    height: 150px;
+    text-align: center;
+    padding: 10px;
+    font-family: sans-serif;
+    
+}
+
+.service3 p{
+
+    width: 230px;
+    height: 150px;
+    text-align: center;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+.service1:hover{
+    transform: scale(1.1);
+
+}
+
+
+.service2:hover{
+    transform: scale(1.1);
+
+}
+
+.service3:hover{
+    transform: scale(1.1);
+
+}
+
+.footer{
+    margin-top: 471px;
+    background: black;
+    width: 100%;
+    height: 30px;
+    color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+    font-size: 12px;
+    
+    
+}
